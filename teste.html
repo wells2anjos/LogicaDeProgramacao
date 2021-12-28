@@ -1,10 +1,18 @@
 <meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
 <script>
 
-    var idadeLinda = 12;
-    var idadeGuaraciara = 15;
-    var idadePerola = 13;
-    var mediaDasIdades = (idadeLinda + idadeGuaraciara + idadePerola) / 3
+    var tanqueDeGasolina = 40;
+    var caminhoComGasolina = 480;
+    var consumoDeGasolina = caminhoComGasolina / tanqueDeGasolina;
 
-    document.write("A média das idades é " + Math.round(mediaDasIdades));
+    document.write("O consumo de gasolina foi de " + consumoDeGasolina);
+
+    var tanqueDeAlcool = 40;
+    var caminhoComAlcool = 300;
+    var consumoDeAlcool = caminhoComAlcool / tanqueDeAlcool;
+
+    document.write("<br> O consumo de Álcool foi de " + consumoDeAlcool);
 </script>
